@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  /* margin: 0px; 
+  padding: 0px; */
+  font-family: sans-serif;
+  width: 700;
+}
+
+.wrapper {
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  margin-left: 20em;
+  margin-top: 3em;
+}
+
+h1,h2 {
+  padding-bottom: 2px;
+  margin-bottom: 0px;
+  margin-left: 90px;
+}
+h2{
+  padding-top: 0px;
+  margin-top: 0px;
+}
+h4 {
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-left: 90px;
+}
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
